@@ -15,7 +15,7 @@ class carList extends React.Component {
         <div className="card mb-4 shadow-sm">
           <div className="card-body text-center">
             <img className="card-img-top" src={car.img} alt="car" />
-            <p className="card-text">{car.name}</p>
+            <h4 className="card-text">{car.name}</h4>
             <p className="card-text">{car.model}</p>
             <p className="card-text">
               Year:&nbsp;
